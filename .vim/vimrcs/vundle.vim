@@ -11,8 +11,6 @@ Bundle 'gmarik/vundle'
 "     
 " original repos on github 
 Bundle 'mileszs/ack.vim'
-Bundle 'kevinw/pyflakes-vim'
-Bundle 'python.vim'
 Bundle 'taglist.vim'
 " vim-scripts repos  
 Bundle 'scrooloose/nerdtree'
