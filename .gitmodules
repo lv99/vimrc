@@ -4,12 +4,6 @@
 [submodule "nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "pyflakes-vim"]
-	path = .vim/bundle/pyflakes-vim
-	url = https://github.com/kevinw/pyflakes-vim.git
-[submodule "python.vim"]
-	path = .vim/bundle/python.vim
-	url = https://github.com/vim-scripts/python.vim.git
 [submodule "taglist.vim"]
 	path = .vim/bundle/taglist.vim
 	url = https://github.com/vim-scripts/taglist.vim.git
