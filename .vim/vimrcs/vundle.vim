@@ -10,7 +10,6 @@ Bundle 'gmarik/vundle'
 " My Bundles here:  
 "     
 " original repos on github 
-Bundle 'mileszs/ack.vim'
 Bundle 'taglist.vim'
 " vim-scripts repos  
 Bundle 'scrooloose/nerdtree'
