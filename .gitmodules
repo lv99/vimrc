@@ -16,3 +16,6 @@
 [submodule "nerdtree-tabs"]
 	path = .vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "python_fold"]
+	path = .vim/bundle/python_fold
+	url = https://github.com/vim-scripts/python_fold.git

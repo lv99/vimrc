@@ -16,6 +16,7 @@ Bundle 'taglist.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'python_fold'
 " non github repos 
   
 filetype plugin indent on "   
