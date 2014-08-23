@@ -2,7 +2,13 @@
 
 fu CscopeReload()
     cscope kill 0
-    silent !start /B cmd /c "cscope.exe -Rbq"
+	if has("win16") || has("win32")
+    	silent !start /B cmd /c "cscope.exe -Rbq"
+		silent !start /B cmd /c "ctags.exe -R"
+	else
+		silent !cscope -Rbq
+		silent !ctags -R
+	endif
 endf
 
-autocmd BufWritePost *.py call CscopeReload()
+autocmd BufWritePost *.c call CscopeReload()
