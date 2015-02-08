@@ -434,7 +434,7 @@ elseif has("win16") || has("win32")
 elseif has("linux")
     set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("unix")
-    set gfn=Monaco\ 11
+    set gfn=Ubuntu\ Mono\ 12
 endif
 
 " Open MacVim in fullscreen mode
