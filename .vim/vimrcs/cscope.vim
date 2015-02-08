@@ -11,4 +11,4 @@ fu CscopeReload()
 	endif
 endf
 
-autocmd BufWritePost *.c call CscopeReload()
+autocmd BufWritePost *.c,*.cpp,*.h,*.lua,*.py call CscopeReload()
