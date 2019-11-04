@@ -1,5 +1,9 @@
 set HOME_PATH=C:\Users\%USERNAME%\
 
+echo "install pylint/yapf"
+pip install pylint
+pip install yapf
+
 echo "download vim-plug"
 git clone https://github.com/junegunn/vim-plug.git
 
