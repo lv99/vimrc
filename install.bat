@@ -1,5 +1,8 @@
 set HOME_PATH=C:\Users\%USERNAME%\
 
+echo "install font"
+cd fonts & FontReg /copy & cd ..
+
 echo "install pylint/yapf"
 pip install pylint
 pip install yapf
