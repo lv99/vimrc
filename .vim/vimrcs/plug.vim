@@ -15,6 +15,8 @@ Plug 'ycm-core/YouCompleteMe', { 'do': function('BuildYCM') }
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'w0rp/ale'
+Plug 'iamcco/mathjax-support-for-mkdp'
+Plug 'iamcco/markdown-preview.vim'
 
 call plug#end()
 
