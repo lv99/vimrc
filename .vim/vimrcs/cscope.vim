@@ -3,7 +3,7 @@
 fu CscopeReload()
     cscope kill 0
 	if has("win16") || has("win32")
-    	silent !start /B cmd /c "dir /s /b *.py >cscope.files & cscope.exe -Rb"
+    	silent !start /B cmd /c "dir /s /b *.py *.vim >cscope.files & cscope.exe -Rb"
 	else
 		silent !cscope -Rbq
 	endif
