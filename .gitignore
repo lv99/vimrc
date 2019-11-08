@@ -1,2 +1,10 @@
 .git
 my_configs.vim*
+.vim/plugged/YouCompleteMe
+.vim/plugged/nerdtree
+.vim/plugged/MultiProject.vim
+.vim/plugged/mathjax-support-for-mkdp/
+.vim/plugged/markdown-preview.vim/
+.vim/plugged/YouCompleteMe
+.vim/plugged/nerdtree
+.vim/plugged/MultiProject.vim

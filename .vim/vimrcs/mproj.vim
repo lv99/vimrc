@@ -1,9 +1,13 @@
 
-let g:MProjProjectList = {
-	\'vimrc' : {
+let g:MProjProjectList = [
+	\{
+		\'name':'vimrc',
+		\'language':'vimscript',
 		\'path':'C:\Users\lv99\.vim',
-		\},
-	\'mproj' : {
+	\},
+	\{
+		\'name':'mproj',
+		\'language':'vimscript',
 		\'path':'C:\Users\lv99\.vim\plugged\MultiProject.vim',
-		\},
-	\}
+	\},
+	\]
