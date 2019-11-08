@@ -14,7 +14,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'ycm-core/YouCompleteMe', { 'do': function('BuildYCM') }
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'jistr/vim-nerdtree-tabs'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
 Plug 'lv99/MultiProject.vim'
