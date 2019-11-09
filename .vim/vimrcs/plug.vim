@@ -12,7 +12,7 @@ endfunction
 call plug#begin('~/.vim/plugged')
 
 Plug 'ycm-core/YouCompleteMe', { 'do': function('BuildYCM') }
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'dense-analysis/ale'
 Plug 'iamcco/mathjax-support-for-mkdp'
