@@ -1,6 +1,10 @@
 
-let g:ycm_semantic_triggers = {
-	\'python': ['re!from\s+\S+import\s','re!def\s','re!from\s'],
-	\}
+let g:ale_linters={'python':['pylint'],'vim':['vint']}
 
-nmap <F2> :MProjToggle <CR>
+let g:ale_lint_delay=10
+let g:ale_python_autopep8_use_global=1
+
+let g:ale_fixers={'python':['yapf']}
+
+let g:ale_fix_on_save=1
+let g:ale_completion_enable=1

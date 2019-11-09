@@ -6,7 +6,7 @@ cd fonts & FontReg /copy & cd ..
 echo "install pylint/yapf"
 pip install pylint
 pip install yapf
-pip install vim-vint
+pip install --pre vim-vint
 
 echo "download vim-plug"
 git clone https://github.com/junegunn/vim-plug.git
