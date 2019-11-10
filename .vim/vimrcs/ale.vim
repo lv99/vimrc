@@ -1,5 +1,5 @@
 
-let g:ale_linters={'python':['pylint'],'vim':['vint']}
+let g:ale_linters={'python':['pylint'],'vim':['vint'],'css':['stylelint'],'html':['htmlhint','stylelint']}
 
 let g:ale_lint_delay=10
 let g:ale_python_autopep8_use_global=1
