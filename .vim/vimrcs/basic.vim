@@ -298,18 +298,6 @@ autocmd BufWrite *.coffee :call DeleteTrailingWS()
 " => Ack searching and cope displaying
 "    requires ack.vim - it's much better than vimgrep/grep
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" When you press gv you Ack after the selected text
-vnoremap <silent> gv :call VisualSelection('gv', '')<CR><CR>
-
-" Open Ack and put the cursor in the right position
-"noremap <leader>g :Ack <C-R>=expand("<cword>")<CR><CR>
-noremap <leader>gc :cs add cscope.out<CR>:cs find c <C-R>=expand("<cword>")<CR><CR>:cw<CR>
-noremap <leader>gd :cs add cscope.out<CR>:cs find g <C-R>=expand("<cword>")<CR><CR>:cw<CR>
-noremap <leader>ge :cs add cscope.out<CR>:cs find e <C-R>=expand("<cword>")<CR><CR>:cw<CR>
-noremap <leader>gg :cs add cscope.out<CR>:cs find g <C-R>=expand("<cword>")<CR><CR>:cw<CR>
-noremap <leader>gs :cs add cscope.out<CR>:cs find s <C-R>=expand("<cword>")<CR><CR>:cw<CR>
-noremap <leader>gt :cs add cscope.out<CR>:cs find t <C-R>=expand("<cword>")<CR><CR>:cw<CR>
-
 " When you press <leader>r you can search and replace the selected text
 vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
 
@@ -378,11 +366,6 @@ function! VisualSelection(direction, extra_filter) range
 
     if a:direction == 'b'
         execute "normal ?" . l:pattern . "^M"
-    elseif a:direction == 'gv'
-        execute "cs add cscope.out"
-        execute "cs find t " . l:pattern
-        execute "cw"
-        "call CmdLine("Ack \"" . l:pattern . "\" " )
     elseif a:direction == 'replace'
         call CmdLine("%s" . '/'. l:pattern . '/')
     elseif a:direction == 'f'
