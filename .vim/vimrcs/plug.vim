@@ -19,6 +19,7 @@ Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
 Plug 'lv99/MultiProject.vim'
 Plug 'Yggdroot/LeaderF'
+Plug 'calviken/vim-gdscript3'
 
 call plug#end()
 
