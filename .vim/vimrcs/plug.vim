@@ -15,8 +15,7 @@ Plug 'ycm-core/YouCompleteMe', { 'do': function('BuildYCM') }
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'dense-analysis/ale'
-Plug 'iamcco/mathjax-support-for-mkdp'
-Plug 'iamcco/markdown-preview.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'lv99/MultiProject.vim'
 Plug 'Yggdroot/LeaderF'
 Plug 'calviken/vim-gdscript3'
